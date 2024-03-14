@@ -35,10 +35,28 @@ body{
     justify-content:center;
     padding:lem;
     font-size:18px;
-    aling-items:center;
+    align-items: center;
     width:100%;
-    bordr-bottom:4px solid var(--botao-ativo);
+    border-bottom:4px solid var(--botao-ativo);
+    border-left:2px solid var (var--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
 
+}
+.botao:first-child{
+    border-radius:40px 40px 0 0;
+}
 
+.botoes {
+    display:block;
+}
 
+@media screen and (min-width:768px) {
+    .botoes{
+        display:flex;
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+    
 }
