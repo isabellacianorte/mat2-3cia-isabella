@@ -31,7 +31,7 @@ body{
 .botao{
     font-family: "crakra petch" , sans-serif;
     background-color: vaar(--botao-inativo);
-    color:var(--branco);
+    color:var(--branco)
     display: flex;
     justify-content:center;
     padding:lem;
