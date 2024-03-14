@@ -20,3 +20,25 @@ body{
     max-width
 
 }    
+
+
+.titulo-principal span{
+    color:var(--verde);
+
+}
+
+.botao{
+    font-family: "crakra petch" , sans-serif;
+    background-color: vaar(--botao-inativo);
+    color:var(--branco);
+    display: flex;
+    justify-content:center;
+    padding:lem;
+    font-size:18px;
+    aling-items:center;
+    width:100%;
+    bordr-bottom:4px solid var(--botao-ativo);
+
+
+
+}
